@@ -1,24 +1,43 @@
 <!doctype html>
-<html lang="en">
+
+<html>
+
 <head>
+
     @include('includes.head')
+
 </head>
+
 <body>
 
-<header>
-    @include('includes.header')
-</header>
+<div class="container">
 
-<main role="main">
+    <header class="row">
 
-    @yield('content')
+        @include('includes.header')
+
+    </header>
+
+    <div id="main" class="row">
+
+        @yield('content')
+
+    </div>
 
     <footer class="row">
+
         @include('includes.footer')
+
     </footer>
-</main>
+
+</div>
+
+</body>
+
+<!--
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+-->
 </html>
