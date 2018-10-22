@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 
-    Welcome to Assignment IS601b
+    <h1> Welcome to Assignment IS601b </h1>
 
 
 @stop
